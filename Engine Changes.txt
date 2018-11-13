@@ -1,0 +1,10 @@
+DebugRenderer InitRenderer
+made path go back to main folder to allow for use in diferent projects without copying rescources
+same for spriterendere,textrenderer
+
+-added name property to base material
+-added save material function to material
+
+*game Object
+-added name 
+-aded save to file function

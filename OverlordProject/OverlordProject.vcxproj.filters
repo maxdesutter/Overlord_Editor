@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="TestScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 3\Pong\Peddle.cpp" />
+    <ClCompile Include="CourseObjects\Week 3\Pong\Wall.cpp" />
+    <ClCompile Include="CourseObjects\Week 3\Pong\PongScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 3\Pong\Ball.cpp" />
+    <ClCompile Include="CourseObjects\Week 4\Character.cpp" />
+    <ClCompile Include="CourseObjects\Week 4\ModelTestScene.cpp" />
+    <ClCompile Include="Materials\DiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\UberMaterial.cpp" />
+    <ClCompile Include="CourseObjects\Week 5\UberScene.cpp" />
+    <ClCompile Include="Materials\SpikeyMaterial.cpp" />
+    <ClCompile Include="CourseObjects\Week 5\SpikeyScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 3\TutorialScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 6\PickScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 6\SpriteTestScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 7\BoneObject.cpp" />
+    <ClCompile Include="CourseObjects\Week 7\SoftwareSkinningScene_1.cpp" />
+    <ClCompile Include="Materials\ColorMaterial.cpp" />
+    <ClCompile Include="CourseObjects\Week 7\SoftwareSkinningScene_2.cpp" />
+    <ClCompile Include="CourseObjects\Week 7\SoftwareSkinningScene_3.cpp" />
+    <ClCompile Include="TestScenes\ClothScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 8\HardwareSkinningScene.cpp" />
+    <ClCompile Include="Materials\SkinnedDiffuseMaterial.cpp" />
+    <ClCompile Include="CourseObjects\Week 9\PostBlur.cpp" />
+    <ClCompile Include="CourseObjects\Week 9\PostProcessingScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 10\ParticleScene.cpp" />
+    <ClCompile Include="CourseObjects\Week 9\PostGrayscale.cpp" />
+    <ClCompile Include="CourseObjects\Week 11\SkyBox.cpp" />
+    <ClCompile Include="Materials\SkyBoxMaterial.cpp" />
+    <ClCompile Include="CourseObjects\Week 11\SkyBoxScene.cpp" />
+    <ClCompile Include="TestScenes\CharacterTestScene.cpp" />
+    <ClCompile Include="TestScenes\PickSceneTest.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TestScenes\HudTestScene.cpp" />
+    <ClCompile Include="CourseObjects\Terrain\TerrainTestScene.cpp" />
+    <ClCompile Include="Materials\Deferred\ColorMaterial_Deferred.cpp" />
+    <ClCompile Include="Materials\Deferred\DiffuseMaterial_Deferred.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="TestScene.h" />
+    <ClInclude Include="CourseObjects\Week 3\Pong\Peddle.h" />
+    <ClInclude Include="CourseObjects\Week 3\Pong\Wall.h" />
+    <ClInclude Include="CourseObjects\Week 3\Pong\PongScene.h" />
+    <ClInclude Include="CourseObjects\Week 3\Pong\Ball.h" />
+    <ClInclude Include="CourseObjects\Week 4\Character.h" />
+    <ClInclude Include="CourseObjects\Week 4\ModelTestScene.h" />
+    <ClInclude Include="Materials\DiffuseMaterial.h" />
+    <ClInclude Include="Materials\UberMaterial.h" />
+    <ClInclude Include="CourseObjects\Week 5\UberScene.h" />
+    <ClInclude Include="Materials\SpikeyMaterial.h" />
+    <ClInclude Include="CourseObjects\Week 5\SpikeyScene.h" />
+    <ClInclude Include="CourseObjects\Week 3\TutorialScene.h" />
+    <ClInclude Include="CourseObjects\Week 6\PickScene.h" />
+    <ClInclude Include="CourseObjects\Week 6\SpriteTestScene.h" />
+    <ClInclude Include="CourseObjects\Week 7\BoneObject.h" />
+    <ClInclude Include="CourseObjects\Week 7\SoftwareSkinningScene_1.h" />
+    <ClInclude Include="Materials\ColorMaterial.h" />
+    <ClInclude Include="CourseObjects\Week 7\SoftwareSkinningScene_2.h" />
+    <ClInclude Include="CourseObjects\Week 7\SkinnedVertex.h" />
+    <ClInclude Include="CourseObjects\Week 7\SoftwareSkinningScene_3.h" />
+    <ClInclude Include="TestScenes\ClothScene.h" />
+    <ClInclude Include="CourseObjects\Week 8\HardwareSkinningScene.h" />
+    <ClInclude Include="Materials\SkinnedDiffuseMaterial.h" />
+    <ClInclude Include="CourseObjects\Week 9\PostBlur.h" />
+    <ClInclude Include="CourseObjects\Week 9\PostProcessingScene.h" />
+    <ClInclude Include="CourseObjects\Week 10\ParticleScene.h" />
+    <ClInclude Include="CourseObjects\Week 9\PostGrayscale.h" />
+    <ClInclude Include="CourseObjects\Week 11\SkyBox.h" />
+    <ClInclude Include="Materials\SkyBoxMaterial.h" />
+    <ClInclude Include="CourseObjects\Week 11\SkyBoxScene.h" />
+    <ClInclude Include="TestScenes\CharacterTestScene.h" />
+    <ClInclude Include="TestScenes\PickSceneTest.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TestScenes\HudTestScene.h" />
+    <ClInclude Include="CourseObjects\Terrain\TerrainTestScene.h" />
+    <ClInclude Include="Materials\Deferred\ColorMaterial_Deferred.h" />
+    <ClInclude Include="Materials\Deferred\DiffuseMaterial_Deferred.h" />
+    <ClInclude Include="Materials\MaterialIncluder.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ColorMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffuseMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedDiffuseMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBoxMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="SpikeyMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="UberMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentBrowser.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MainEditor.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlordEditorPCH.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorScene.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSaver.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectParameters.cpp">
+      <Filter>GUI\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialParameters.cpp">
+      <Filter>GUI\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterWindow.cpp">
+      <Filter>GUI\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Exposer.cpp">
+      <Filter>GUI\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="FileAdder.cpp">
+      <Filter>GUI\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialFactory.cpp">
+      <Filter>ObjectFactorys</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ColorMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffuseMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedDiffuseMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBoxMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="SpikeyMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="UberMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentBrowser.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlordEditorPCH.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorScene.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MainEditor.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSaver.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectParameters.h">
+      <Filter>GUI\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialParameters.h">
+      <Filter>GUI\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterWindow.h">
+      <Filter>GUI\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Exposer.h">
+      <Filter>GUI\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAdder.h">
+      <Filter>GUI\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialFactory.h">
+      <Filter>ObjectFactorys</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{7b6f7a6f-0b49-40e8-b227-6332c7d26436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{8592d764-d63f-452d-8ed0-026513eae646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{8a6a16d3-3df4-47e6-905d-515049f3c3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem">
+      <UniqueIdentifier>{eb7b76dc-d79d-418f-8a46-5cfb589a43df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Parameters">
+      <UniqueIdentifier>{f52dcb37-f362-48fc-8d5d-ea402ffb0a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFactorys">
+      <UniqueIdentifier>{728f4c36-0dd8-4789-838f-2998f6c547b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{f39e938e-34eb-48c4-b5ad-68009a83e0d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

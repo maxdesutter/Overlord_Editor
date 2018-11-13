@@ -1,0 +1,133 @@
+Save materials in files/material folder
+save models in files/models folder
+
+
+
+num pmats
+	name of pMat1		(long string)
+		param 1 of pmat1
+
+num of inputs
+	name of input
+	action
+	button code
+
+num gameobjects		(int)
+	name of obj1
+	transform of ob1 (pos(xmfl3),rot(?),scale(xmfl3))
+		num of components
+			typeof comp1
+			parameter of comp
+	num of children (unsigned char)
+		children of obj1
+	
+num of prefabs
+	name of prefab1
+	transform of prefab1
+	parameters of prefab1
+
+
+
+
+
+
+
+
+
+
+//pxmat paras
+	-statfrictio 		(PxReal)
+	-dynam friction		(PxReal)
+	-restitution		(PxReal)
+
+//game ob params
+
+//component parameters
+*unsuported(0)
+*modelcomponent(1)
+	-model path
+	-material index (UNINT)
+*controllercomponent(2)
+	-pmat name	(long string)
+	-radius		(float
+	-height		(float)
+*rigidbodycomponent(3)
+	-isstatic	(bool)
+*collider componenet (4)
+	-pmat name	(long string)
+	-type of geom (unsigned char)
+		-geom paras
+	-tranform
+		-pxvec3
+		-pxquat
+	-is trigger	 (bool)
+*spritecomponent(5)
+	-assetpath	(long string)
+	-pivot		(xmfloat2)
+	-color		(xmfloat4)
+*particleemmitercomponent(6)
+	-assetfile	(long string)
+	-particle count (int)
+	-velosicty	(xmfloat3)
+	-minsize	(float)
+	-maxsize	(float)
+	-minsizegrow	(float)
+	-maxSizeGrow	(float)
+	-MinEmitterRange(float)
+	-SetMaxEmitterRange(float)
+	-color		(xmfloat4)
+*terraincomponent(7)
+	-heightmappath	(long string)
+	-texturepath	(long string
+	-nrofrows	(unsigned int)
+	-nrofcollums	(unsigned int)
+	-width		(float)
+	-depth		(float)
+	-maxheight	(float)
+
+
+
+//geom types
+*PxPlaneGeometry (0)
+	-none
+*PxSphereGeometry (1)
+	-radius 		(PxReal)
+*PxBoxGeometry	  (2)
+	-Half x			(PxReal)
+	-half y			(PxReal)
+	-half z			(PxReal)
+*PxConvexMeshGeometry (3)
+	-file path 		(long string)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
